@@ -1,0 +1,165 @@
+@media screen and (max-width: 985px) {
+    #footer-content-division {
+        width: unset;
+        max-width: 985px;
+    }
+
+    #category-grid-div {
+        width: unset;
+        max-width: 985px;
+    }
+
+    #grid-heading {
+        width: 100%;
+
+    }
+
+    #card-holder {
+        width: 95%;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    #all-ads-and-language-div {
+        display: none;
+    }
+
+    #chat-text-div, #login-text-div, #post-ad-link-button {
+        display: none;
+    }
+
+    #top-nav-bar {
+        justify-content: space-between;
+    }
+
+    #menu-icon-div {
+        display: block;
+    }
+
+    #search-form {
+        width: unset;
+    }
+
+    #card-holder {
+        flex-direction: column;
+        box-shadow: none;
+        align-items: center;
+
+        div {
+            flex-direction: column;
+            width: 95%;
+            align-items: center;
+        }
+
+
+        #money-icon-div {
+            width: 118px;
+        }
+
+        .card-description-div {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            p {
+                text-align: center;
+            }
+
+            h2 {
+                font-size: 18px;
+            }
+        }
+
+        #ikman-jobs-card {
+            div, p {
+                text-align: center;
+            }
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            margin-top: 16px;
+            /*margin: 16px;*/
+
+            border-radius: 8px;
+
+            box-shadow: 0 2px 16px 0 rgba(0, 0, 0, .1);
+
+        }
+
+        #start-making-money-card {
+            /*margin: 16px;*/
+            padding: 16px;
+
+            border-radius: 8px;
+
+            box-shadow: 0 2px 16px 0 rgba(0, 0, 0, .1);
+        }
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        width: 95%;
+    }
+
+    #search-category-div {
+        height: auto;
+        align-items: flex-start;
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+    }
+
+    #category-grid-div {
+        grid-template-columns: repeat(15, 1fr);
+        grid-template-rows: 1fr;
+        height: auto;
+        margin-left: 10px;
+
+    }
+
+    #quick-links-section {
+        width: 100%;
+        align-items: flex-start;
+        overflow-x: hidden;
+    }
+
+    #quick-links-grid {
+
+        height: auto;
+    }
+
+    .quick-link-div {
+        width: 400px;
+        height: auto;
+    }
+
+    #footer-links-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    #other-countries-flag-and-name-div {
+        justify-content: flex-start;
+        a{
+            justify-content: flex-start;
+        }
+
+    }
+
+    #google-play-store-link, #apple-app-store-link{
+        div{
+            justify-content: flex-start;
+        }
+    }
+
+    #app-download-div-heading {
+        justify-content: flex-start;
+    }
+    #other-countries-heading-div {
+        justify-content: flex-start;
+    }
+
+
+}
