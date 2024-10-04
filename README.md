@@ -6,7 +6,7 @@
 ![Responsive](https://img.shields.io/badge/Responsive-Design-brightgreen?style=flat-square&logo=responsive&logoColor=white)
 ![IntelliJ IDEA](https://img.shields.io/badge/IntelliJ-IDEA-black?style=flat-square&logo=intellij-idea)
 
-This project is a responsive clone of the ikman.lk homepage, built using HTML and CSS. It aims to provide a user experience similar to the original ikman.lk website while being accessible on various devices and screen sizes. This project is created by Ravindya Jayasooriya for experimental purposes.
+This project is a responsive clone of the ikman.lk homepage, built using HTML and CSS. It aims to provide a user experience similar to the original ikman.lk website while being accessible on various devices and screen sizes. This project is created by Tharindu Rukshan for experimental purposes.
 
 **Note:** This is not an official product and is not intended for public use.
 
